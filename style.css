@@ -579,7 +579,15 @@ img {
     font-size: 0.938rem;
 }
 
-/*  */
+.navbar-nav a:hover {
+    border-bottom: 3px solid var(--text-white);
+    transition: all 3s ease-in-out;
+
+}
+
+/* Promo section end  */
+
+
 
 @media only screen and (max-width:550px) and (min-width:500px) {
     #home .home-download-btn .btn {
@@ -594,7 +602,8 @@ img {
     #home .home-text p {
         font-size: 1rem;
     }
+
+    .navbar-nav a:hover {
+        border-bottom: 0;
+    }
 }
-
-
-/* Promo section end  */
