@@ -579,5 +579,22 @@ img {
     font-size: 0.938rem;
 }
 
+/*  */
+
+@media only screen and (max-width:550px) and (min-width:500px) {
+    #home .home-download-btn .btn {
+        padding: 1rem 2.9rem;
+    }
+
+    #home .home-text h2 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    #home .home-text p {
+        font-size: 1rem;
+    }
+}
+
 
 /* Promo section end  */
